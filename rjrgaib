@@ -1,6 +1,5 @@
-
 --这个范围没有限制
---rjr
+--rjrgaib
 
 local old
 old = hookmetamethod(game:GetService("StarterGui"), "__namecall", newcclosure(function(self, ...)
