@@ -14,11 +14,11 @@ local isLocalPlayerWhitelisted = IsWhitelisted(localPlayer)
 
 if isLocalPlayerWhitelisted then
     StarterGui:SetCore("SendNotification", {
-        Title = "白名单认证",
-        Text = "玩家:"..localPlayer.Name.."，检测完毕白名单玩家，稍后会加载脚本",
+        Title = "白名單認證",
+        Text = "玩家:"..localPlayer.Name.."，檢測完畢稍後會載凌霄",
         Duration = 7,
     })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kexuan001/--/refs/heads/main/rjrgaib"))()
 else
-    localPlayer:Kick("你个死爹烂妈的没在白名单里")
+    localPlayer:Kick("你個死爸媽的沒在白名單裏面")
 end
